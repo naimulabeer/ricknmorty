@@ -1,0 +1,17 @@
+.home-title-container {
+  text-transform: capitalize;
+  font-size: 60px;
+  font-weight: 700;
+  text-align: center;
+  color: #888;
+  animation: colorChange 2s ease-in-out infinite alternate;
+}
+
+@keyframes colorChange {
+  from {
+    color: #888;
+  }
+  to {
+    color: #000;
+  }
+}
